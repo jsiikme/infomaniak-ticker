@@ -7,6 +7,8 @@ Extension navigateur (Chrome + Firefox, Manifest V3) qui affiche en permanence l
 - **Actualisation** : toutes les **15 minutes** via `chrome.alarms` (au rythme du différé SIX)
 - **Données** : API publiques SIX (`fqs/movie.json` + `share_details`), sans clé — cours **différés d'environ 15 minutes**
 
+![Popup — cours détaillé](docs/popup.png)
+
 ## Installation
 
 ### Chrome / Edge / Brave
