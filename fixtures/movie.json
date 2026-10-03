@@ -1,0 +1,19 @@
+{"protocolVersion":"fqs.json#17x",
+"pageNumber":1,
+"pageSize":50,
+"totalRows":1,
+"delayMinutes":15,
+"delayedMillis":1790941686265,
+"delayedDateTime":"20261002T13:48:06.265",
+"requestURL":"/itf/fqs/delayed/movie.json?where=ValorId=CH1609605055CHF4&select=ClosingPrice,ClosingDelta,ClosingPerformance,PreviousClosingPrice,OpeningPrice,DailyHighPrice,DailyLowPrice,TotalVolume,MarketTime",
+"copyRight":"(c) Copyright by SIX Group Ltd 2026. All rights reserved.",
+"colNames":["ClosingPrice","ClosingDelta","ClosingPerformance","PreviousClosingPrice","OpeningPrice","DailyHighPrice","DailyLowPrice","TotalVolume","MarketTime"],
+"rowData":[
+[85.79,0.79,0.93,85,85,87,84.5,49221,134806]],
+"movie":[
+[54783,0,0,85.8],
+[0,0,1,0.8],
+[0,0,2,0.94],
+[0,0,7,49487],
+[130110,-1,-1,"/itf/fqs/delayed/movie.json?where=ValorId=CH1609605055CHF4&select=ClosingPrice,ClosingDelta,ClosingPerformance,PreviousClosingPrice,OpeningPrice,DailyHighPrice,DailyLowPrice,TotalVolume,MarketTime"]],
+"elapsed":0}

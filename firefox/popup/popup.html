@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="logo-k" aria-hidden="true">k</div>
+    <div class="titles">
+      <h1 id="company">—</h1>
+      <div class="sub">
+        <span id="symbol" class="chip">—</span>
+        <span id="isin" class="isin"></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="price-row">
+    <div class="price">
+      <span id="price">—</span>
+      <span id="currency" class="currency"></span>
+    </div>
+    <div id="change" class="change flat">—</div>
+  </section>
+
+  <section class="stats">
+    <div class="stat"><span class="label">Ouverture</span><span class="value" id="open">—</span></div>
+    <div class="stat"><span class="label">Clôture veille</span><span class="value" id="prevClose">—</span></div>
+    <div class="stat"><span class="label">Haut du jour</span><span class="value" id="high">—</span></div>
+    <div class="stat"><span class="label">Bas du jour</span><span class="value" id="low">—</span></div>
+    <div class="stat"><span class="label">Volume</span><span class="value" id="volume">—</span></div>
+    <div class="stat"><span class="label">Heure marché (SIX)</span><span class="value" id="marketTime">—</span></div>
+  </section>
+
+  <div id="error" class="error hidden"></div>
+
+  <footer>
+    <button id="refresh" type="button">Actualiser</button>
+    <span id="updatedAt" class="updated"></span>
+  </footer>
+
+  <a id="sixLink" class="six-link" href="#" target="_blank" rel="noopener">Voir sur six-group.com ↗</a>
+  <p class="disclaimer">Données publiques SIX Group, différées d'environ 15 minutes.</p>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
