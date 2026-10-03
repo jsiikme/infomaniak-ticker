@@ -5,7 +5,7 @@ export const CURRENCY = 'CHF';
 export const SIX_PAGE_URL =
   'https://www.six-group.com/en/market-data/shares/share-explorer/share-details.CH1609605055CHF4.html';
 
-export const DEFAULT_INFO = { name: 'INFOMANIK N', valorSymbol: 'INFO', isin: ISIN };
+export const DEFAULT_INFO = { name: 'INFOMANIAK N', valorSymbol: 'INFO', isin: ISIN };
 
 export const FQS_FIELDS = [
   'ClosingPrice',
