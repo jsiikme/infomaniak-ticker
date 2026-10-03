@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "INFO — Infomaniak Stock Ticker",
   "short_name": "INFO ticker",
-  "version": "1.4.1",
-  "description": "Cours de l'action Infomaniak (INFO, SIX) sur l'icône : logotype info et valeur. Maj 1 min, données SIX ~15 min.",
+  "version": "1.4.2",
+  "description": "Cours de l'action Infomaniak (INFO, SIX) sur l'icône : logotype info et valeur. Maj 15 min, données SIX ~15 min.",
   "browser_specific_settings": {
     "gecko": {
       "id": "infomaniak-ticker@silvestrini.ch",
