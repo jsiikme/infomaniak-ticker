@@ -7,7 +7,7 @@ Extension navigateur (Chrome + Firefox, Manifest V3) qui affiche en permanence l
 - **Actualisation** : toutes les **15 minutes** via `chrome.alarms` (au rythme du différé SIX)
 - **Données** : API publiques SIX (`fqs/movie.json` + `share_details`), sans clé — cours **différés d'environ 15 minutes**
 
-![INFO — Infomaniak Stock Ticker](docs/social-preview-v4.png)
+![INFO — Infomaniak Stock Ticker](docs/social-preview-v5.png)
 
 ## Installation
 
