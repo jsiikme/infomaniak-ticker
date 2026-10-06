@@ -9,6 +9,16 @@ Extension navigateur (Chrome + Firefox, Manifest V3) qui affiche en permanence l
 
 ![INFO — Infomaniak Stock Ticker](docs/social-preview-v5.png)
 
+## Avertissement
+
+- Projet personnel, développé à titre privé. Extension non officielle : elle n'est ni éditée, ni approuvée, ni soutenue par Infomaniak ou par SIX.
+- Les cours affichés proviennent de sources publiques de SIX. Ils sont différés d'environ 15 minutes et peuvent être incomplets, inexacts, interrompus ou obsolètes.
+- Les informations sont fournies à titre indicatif uniquement. Elles ne constituent ni un conseil en placement, ni une recommandation, ni une offre ou une sollicitation d'achat ou de vente de valeurs mobilières.
+- Aucune décision d'investissement ne doit se fonder sur cette extension. Les cours doivent être vérifiés auprès d'une source officielle (SIX, banque ou courtier).
+- L'extension est fournie « en l'état », sans garantie d'aucune sorte, notamment d'exactitude, de disponibilité ou d'adéquation à un usage particulier.
+- Dans la mesure permise par la loi applicable, l'auteur décline toute responsabilité pour tout dommage, direct ou indirect, résultant de l'utilisation de l'extension ou des informations affichées, ou de l'impossibilité de les utiliser.
+- « Infomaniak » et « SIX » sont des marques de leurs titulaires respectifs. Elles sont mentionnées uniquement pour identifier le titre affiché.
+
 ## Installation
 
 ### Chrome / Edge / Brave
@@ -43,5 +53,4 @@ node tools/test-quote.mjs
 
 ## Notes
 
-- Projet personnel, non affilié à Infomaniak ni à SIX.
 - Les variantes `chrome/` et `firefox/` sont volontairement autonomes (chargement direct sans étape de build).
