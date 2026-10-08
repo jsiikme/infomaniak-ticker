@@ -12,7 +12,7 @@ import {
 } from './lib/quote.js';
 
 const ALARM_NAME = 'refresh-quote';
-const PERIOD_MIN = 15;
+const PERIOD_MIN = 5;
 const ICON_SIZES = [16, 32, 48, 128];
 
 const COLORS = {
