@@ -2,7 +2,7 @@
 
 Extension navigateur (Chrome + Firefox, Manifest V3) qui affiche en permanence le cours de l'action **Infomaniak** (ticker `INFO`, SIX Swiss Exchange) :
 
-- **Icône** : logotype « info » bleu, sans fond, au-dessus du badge, badge du prix sur fond **vert** (hausse) / **rouge** (baisse)
+- **Icône** : badge du prix sur fond **vert** (hausse) / **rouge** (baisse)
 - **Popup** : prix, variation absolue et %, ouverture, clôture veille, plus haut/bas, volume, heure de marché, lien vers la page SIX
 - **Actualisation** : toutes les **5 minutes** via `chrome.alarms` (les cours restent différés d'environ 15 minutes côté SIX)
 - **Données** : API publiques SIX (`fqs/movie.json` + `share_details`), sans clé — cours **différés d'environ 15 minutes**
