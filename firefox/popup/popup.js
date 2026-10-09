@@ -1,6 +1,6 @@
 import {
   DEFAULT_INFO,
-  YAHOO_PAGE_URL,
+  ZONEBOURSE_PAGE_URL,
   trend,
   formatPrice,
   formatDelta,
@@ -24,7 +24,7 @@ const els = {
   error: document.getElementById('error'),
   refresh: document.getElementById('refresh'),
   updatedAt: document.getElementById('updatedAt'),
-  yahooLink: document.getElementById('yahooLink'),
+  zonebourseLink: document.getElementById('zonebourseLink'),
 };
 
 document.addEventListener('DOMContentLoaded', render);
@@ -50,7 +50,7 @@ async function render() {
   els.company.textContent = merged.name;
   els.symbol.textContent = merged.valorSymbol;
   els.isin.textContent = merged.isin;
-  els.yahooLink.href = YAHOO_PAGE_URL;
+  els.zonebourseLink.href = ZONEBOURSE_PAGE_URL;
 
   if (status === 'error' && error) {
     showError(error);

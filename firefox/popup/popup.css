@@ -195,7 +195,7 @@ footer {
   text-decoration: underline;
 }
 
-.yahoo-link {
+.zonebourse-link {
   display: inline-block;
   margin-top: 8px;
   background: #6001d2;
@@ -207,7 +207,7 @@ footer {
   border-radius: 8px;
 }
 
-.yahoo-link:hover {
+.zonebourse-link:hover {
   background: #4d01aa;
 }
 
