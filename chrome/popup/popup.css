@@ -198,7 +198,7 @@ footer {
 .zonebourse-link {
   display: inline-block;
   margin-top: 8px;
-  background: #6001d2;
+  background: #2b5bd9;
   color: #fff;
   font-size: 12px;
   font-weight: 700;
@@ -208,7 +208,7 @@ footer {
 }
 
 .zonebourse-link:hover {
-  background: #4d01aa;
+  background: #2148b3;
 }
 
 .disclaimer {
