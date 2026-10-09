@@ -195,10 +195,10 @@ footer {
   text-decoration: underline;
 }
 
-.zonebourse-link {
+.tradingview-link {
   display: inline-block;
   margin-top: 8px;
-  background: #2b5bd9;
+  background: #000000;
   color: #fff;
   font-size: 12px;
   font-weight: 700;
@@ -207,8 +207,8 @@ footer {
   border-radius: 8px;
 }
 
-.zonebourse-link:hover {
-  background: #2148b3;
+.tradingview-link:hover {
+  background: #333333;
 }
 
 .disclaimer {

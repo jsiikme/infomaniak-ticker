@@ -2,7 +2,7 @@ export const VALOR_ID = 'CH1609605055CHF4';
 export const ISIN = 'CH1609605055';
 export const CURRENCY = 'CHF';
 
-export const ZONEBOURSE_PAGE_URL = 'https://ch.zonebourse.com/cours/action/INFOMANIAK-SA-25531185/cotations/';
+export const TRADINGVIEW_PAGE_URL = 'https://fr.tradingview.com/symbols/SIX-INFO/?timeframe=5D';
 
 export const DEFAULT_INFO = { name: 'INFOMANIAK N', valorSymbol: 'INFO', isin: ISIN };
 
