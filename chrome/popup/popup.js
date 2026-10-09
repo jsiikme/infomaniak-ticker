@@ -1,6 +1,7 @@
 import {
   DEFAULT_INFO,
   SIX_PAGE_URL,
+  YAHOO_PAGE_URL,
   trend,
   formatPrice,
   formatDelta,
@@ -25,6 +26,7 @@ const els = {
   refresh: document.getElementById('refresh'),
   updatedAt: document.getElementById('updatedAt'),
   sixLink: document.getElementById('sixLink'),
+  yahooLink: document.getElementById('yahooLink'),
 };
 
 document.addEventListener('DOMContentLoaded', render);
@@ -51,6 +53,7 @@ async function render() {
   els.symbol.textContent = merged.valorSymbol;
   els.isin.textContent = merged.isin;
   els.sixLink.href = SIX_PAGE_URL;
+  els.yahooLink.href = YAHOO_PAGE_URL;
 
   if (status === 'error' && error) {
     showError(error);
