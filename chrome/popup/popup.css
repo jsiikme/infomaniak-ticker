@@ -216,3 +216,12 @@ footer {
   font-size: 10px;
   color: var(--muted);
 }
+
+.disclaimer a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.disclaimer a:hover {
+  text-decoration: underline;
+}
