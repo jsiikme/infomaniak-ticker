@@ -195,6 +195,22 @@ footer {
   text-decoration: underline;
 }
 
+.yahoo-link {
+  display: inline-block;
+  margin-top: 8px;
+  background: #6001d2;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 7px 14px;
+  border-radius: 8px;
+}
+
+.yahoo-link:hover {
+  background: #4d01aa;
+}
+
 .disclaimer {
   margin-top: 4px;
   font-size: 10px;
